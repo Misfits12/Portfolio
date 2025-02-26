@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
    
-   <style>
+    <style>
         @import url(https://fonts.googleapis.com/css?family=Varela+Round);
         @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 
@@ -92,6 +92,29 @@
             width: 100%;
             text-align: center;
         }
+
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .container {
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+            }
+
+            .text-section {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .profile-img {
+                width: 150px;
+                height: 150px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -108,7 +131,6 @@
             <a href="https://misfits12.github.io/Resume25/2025%20Resume.html" class="highlight">Resume</a>
         </nav>
     </div>
-    
 
     <div class="container">
         <div class="text-section">
